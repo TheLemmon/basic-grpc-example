@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package jokes;
+option go_package = "github.com/thelemmon/jokes";
+
+message GetJokesRequest {
+    int32 batch_size = 1;
+}
+
+message JokeResponse {
+    string id = 1;
+    string url = 2;
+    string value = 3;
+}
+
+message GetJokesResponse {
+    repeated JokeResponse jokes = 1;
+}
+
+service JokeService {
+    rpc GetJokes(GetJokesRequest) returns (GetJokesResponse);
+}
