@@ -6,7 +6,7 @@ Este repositorio contiene un ejemplo sencillo que integra dos servicios:
 
 - Un servidor gRPC implementado en Golang, el cual consulta de manera asíncrona una API externa de chistes ("jokes") y devuelve 25 chistes de forma aleatoria. Es importante destacar que cada chiste es único, es decir, no se repiten en cada respuesta.
 
-- Un servidor HTTP desarrollado en Python utilizando FastAPI. Este servidor actúa como cliente del servidor gRPC de chistes y expone el siguiente endpoint:
+- Un servidor HTTP desarrollado en Python utilizando FastAPI. Este servidor actúa como cliente del servidor gRPC de chistes y lo expone a traves de un endpoint http
 
 ## Instalacion
 
