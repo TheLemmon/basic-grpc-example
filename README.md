@@ -1,6 +1,6 @@
 # basic-grpc-example
 
-## Description
+## Descripcion
 
 Este repositorio contiene un ejemplo sencillo que integra dos servicios:
 
@@ -10,7 +10,7 @@ Este repositorio contiene un ejemplo sencillo que integra dos servicios:
 
 ## Instalacion
 
-### Cliente Grpc
+### Cliente gRPC
 1. Instalar Python en su version 3.12
 2. Crear un entorno virtual y activarlo
 ```
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 fastapi run main.py
 ```
 
-### Servidor Grpc
+### Servidor gRPC
 1. Instalar Go en su version 1.23.5
 2. Instalar dependencias del proyecto
 ```
